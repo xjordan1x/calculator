@@ -1,0 +1,120 @@
+body {
+    background-color: #000;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #4ABDAC; /* Fondo de color azul celeste */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-title {
+    text-align: center;
+    font-size: 25px;
+    padding: 0;
+    margin: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .form-control {
+    text-align: right;
+    font-size: 24px;
+  }
+  .input_container {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  .input_container input {
+    width: 98%;
+  }
+  
+  .all_buttons_container {
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    gap: 15px;
+  }
+  
+  .container_numbers {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+  
+  .container_numbers-number {
+    width: 100%;
+  }
+  .container_numbers-number button {
+    width: 100%;
+    height: 100%;
+    background-color: #61A5C2; /* Cambia el color de fondo al usar los botones */
+    transition: background-color 0.3s;
+    border: none;
+    color: #fff;
+  }
+  
+  .butons_operator_container {
+    width: 20%;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .butons_operator {
+    width: 100%;
+  }
+  .butons_operator button {
+    width: 100%;
+    background-color: #E54242; /* Cambia el color de fondo al usar los botones de operadores */
+    transition: background-color 0.3s;
+    border: none;
+    color: #fff;
+  }
+  
+  .row {
+    margin-bottom: 10px;
+  }
+  
+  .col-3 {
+    padding: 0 5px;
+  }
+  
+  .btn {
+    font-size: 24px;
+    height: 70px;
+  }
+  
+  .row-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button-container {
+    margin-bottom: 10px;
+  }
+  
+  .number-button {
+    width: 80px;
+  }
+  
+  .operator-button {
+    width: 80px;
+  }
+  
+  /* Cambia el color de fondo de los botones al pasar el mouse sobre ellos */
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
